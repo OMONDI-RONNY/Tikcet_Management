@@ -7,23 +7,45 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="uploads\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.8" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.9" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.9">
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.10">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.9" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.9">
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.10">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.22" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="build\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <NSCorePath Condition="Exists('.\build\NsStore\NSCore.dll')">.\build\NsStore\NSCore.dll</NSCorePath>
+    <NSCorePath Condition="!Exists('.\build\NsStore\NSCore.dll')">..\NsStore\NSCore.dll</NSCorePath>
+    <NSEncryptionPath Condition="Exists('.\build\NsStore\NSEncryption.dll')">.\build\NsStore\NSEncryption.dll</NSEncryptionPath>
+    <NSEncryptionPath Condition="!Exists('.\build\NsStore\NSEncryption.dll')">..\NsStore\NSEncryption.dll</NSEncryptionPath>
+    <NSCatchPath Condition="Exists('.\build\NsStore\NSCatch.dll')">.\build\NsStore\NSCatch.dll</NSCatchPath>
+    <NSCatchPath Condition="!Exists('.\build\NsStore\NSCatch.dll')">..\NsStore\NSCatch.dll</NSCatchPath>
+</PropertyGroup>  
+
+  <ItemGroup>
+	  <Reference Include="NSEncryption">
+		  <HintPath>$(NSEncryptionPath)</HintPath>
+	  </Reference>
+    <Reference Include="NSCatch">
+      <HintPath>$(NSCatchPath)</HintPath>
+    </Reference>
+    <Reference Include="NSCore">
+      <HintPath>$(NSCorePath)</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

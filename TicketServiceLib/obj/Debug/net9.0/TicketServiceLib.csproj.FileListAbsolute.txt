@@ -2,11 +2,17 @@ C:\Users\RonnyOchiengOmondi\OneDrive - Syncfusion\Desktop\Projects\Ticket Servic
 C:\Users\RonnyOchiengOmondi\OneDrive - Syncfusion\Desktop\Projects\Ticket Service\TicketServiceLib\bin\Debug\net9.0\TicketServiceLib.runtimeconfig.json
 C:\Users\RonnyOchiengOmondi\OneDrive - Syncfusion\Desktop\Projects\Ticket Service\TicketServiceLib\bin\Debug\net9.0\TicketServiceLib.dll
 C:\Users\RonnyOchiengOmondi\OneDrive - Syncfusion\Desktop\Projects\Ticket Service\TicketServiceLib\bin\Debug\net9.0\TicketServiceLib.pdb
+C:\Users\RonnyOchiengOmondi\OneDrive - Syncfusion\Desktop\Projects\Ticket Service\TicketServiceLib\bin\Debug\net9.0\NSCatch.dll
+C:\Users\RonnyOchiengOmondi\OneDrive - Syncfusion\Desktop\Projects\Ticket Service\TicketServiceLib\bin\Debug\net9.0\NSCore.dll
+C:\Users\RonnyOchiengOmondi\OneDrive - Syncfusion\Desktop\Projects\Ticket Service\TicketServiceLib\bin\Debug\net9.0\NSEncryption.dll
+C:\Users\RonnyOchiengOmondi\OneDrive - Syncfusion\Desktop\Projects\Ticket Service\TicketServiceLib\bin\Debug\net9.0\NSCore.xml
 C:\Users\RonnyOchiengOmondi\OneDrive - Syncfusion\Desktop\Projects\Ticket Service\TicketServiceLib\obj\Debug\net9.0\TicketServiceLib.csproj.AssemblyReference.cache
 C:\Users\RonnyOchiengOmondi\OneDrive - Syncfusion\Desktop\Projects\Ticket Service\TicketServiceLib\obj\Debug\net9.0\TicketServiceLib.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\RonnyOchiengOmondi\OneDrive - Syncfusion\Desktop\Projects\Ticket Service\TicketServiceLib\obj\Debug\net9.0\TicketServiceLib.AssemblyInfoInputs.cache
 C:\Users\RonnyOchiengOmondi\OneDrive - Syncfusion\Desktop\Projects\Ticket Service\TicketServiceLib\obj\Debug\net9.0\TicketServiceLib.AssemblyInfo.cs
 C:\Users\RonnyOchiengOmondi\OneDrive - Syncfusion\Desktop\Projects\Ticket Service\TicketServiceLib\obj\Debug\net9.0\TicketServiceLib.csproj.CoreCompileInputs.cache
+C:\Users\RonnyOchiengOmondi\OneDrive - Syncfusion\Desktop\Projects\Ticket Service\TicketServiceLib\obj\Debug\net9.0\TicketServiceLib.sourcelink.json
+C:\Users\RonnyOchiengOmondi\OneDrive - Syncfusion\Desktop\Projects\Ticket Service\TicketServiceLib\obj\Debug\net9.0\TicketSe.BEAE87AD.Up2Date
 C:\Users\RonnyOchiengOmondi\OneDrive - Syncfusion\Desktop\Projects\Ticket Service\TicketServiceLib\obj\Debug\net9.0\TicketServiceLib.dll
 C:\Users\RonnyOchiengOmondi\OneDrive - Syncfusion\Desktop\Projects\Ticket Service\TicketServiceLib\obj\Debug\net9.0\refint\TicketServiceLib.dll
 C:\Users\RonnyOchiengOmondi\OneDrive - Syncfusion\Desktop\Projects\Ticket Service\TicketServiceLib\obj\Debug\net9.0\TicketServiceLib.pdb

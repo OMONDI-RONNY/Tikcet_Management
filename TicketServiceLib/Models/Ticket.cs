@@ -1,5 +1,6 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.Net.Mail;
 using TicketServiceLib.Enumerations;
 
 namespace TicketServiceLib.Models;
@@ -16,5 +17,5 @@ public class Ticket
     public TicketStatus TicketStatus { get; set; }
     [DataType(DataType.Date)]
     public DateTime PromiseDate { get; set; }
-    public ICollection<TicketAttachMent>? Attachments { get; set; }
+    public virtual ICollection<TicketAttachMent> Attachments { get; set; } = new List<TicketAttachMent>();
 }
